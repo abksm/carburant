@@ -6,3 +6,5 @@ venv/
 # ne pas prendre en compte les fichiers commençant par key
 key*
 
+requirements.txt
+```
