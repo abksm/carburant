@@ -5,6 +5,6 @@ z/
 # Tu peux aussi ignorer des fichiers en particulier, par exemple ici je ne veux pas pusher mon fichier "kendra_lust.png" :
 kendra_lust.png
 
-# Tu verras pour glcoud t'auras besoin de fichier key.json, là juste en dessous je dis à git de ne pas prendre en compte les fichiers qui commencent par "key" :
+# Je nomme souvent mes fichiers de clé key_truc_machin.json, là juste en dessous je dis à git de ne pas prendre en compte les fichiers qui commencent par "key" :
 key*
 
