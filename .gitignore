@@ -1,2 +1,9 @@
+# Le fichier .gitignore permet d'indicquer à git les fichiers à ne pas prendre en compte
+# là par exemple sur mon projet j'ai un dossier "z" dans lequel je fous du bordel sans le pusher sur github
 z/
+
+
+
+# Tu verras pour glcoud t'auras besoin de fichier key.json, là juste en dessous je dis à git de ne pas prendre en compte les fichiers qui commencent par "key" :
+key*
 
