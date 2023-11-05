@@ -3,9 +3,6 @@
 z/
 venv/
 
-# Tu peux aussi ignorer des fichiers en particulier, par exemple ici je ne veux pas pusher mon fichier "kendra_lust.png" :
-kendra_lust.png
-
-# Je nomme souvent mes fichiers de clé key_truc_machin.json, là juste en dessous je dis à git de ne pas prendre en compte les fichiers qui commencent par "key" :
+# ne pas prendre en compte les fichiers commençant par key
 key*
 
