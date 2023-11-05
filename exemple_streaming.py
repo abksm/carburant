@@ -38,10 +38,17 @@ def on_open(ws):
     ws.send('{"type":"subscribe","symbol":"BINANCE:BTCUSDT"}')
 
 if __name__ == "__main__":
+    # Enable detailed logging of websocket events
     websocket.enableTrace(True)
+    
+    # Create a new WebSocketApp instance, providing the URL to connect to, and the functions to call on various events
     ws = websocket.WebSocketApp("wss://ws.finnhub.io?token=" + api_key ,
-                              on_message = on_message,
-                              on_error = on_error,
-                              on_close = on_close)
+                              on_message = on_message,  # Function to call when a message is received
+                              on_error = on_error,  # Function to call when an error occurs
+                              on_close = on_close)  # Function to call when the websocket is closed
+    
+    # Set the function to call when the websocket is opened
     ws.on_open = on_open
+    
+    # Start the websocket connection and enter the main event loop
     ws.run_forever()
