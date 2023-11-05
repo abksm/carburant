@@ -1,10 +1,14 @@
 #https://pypi.org/project/websocket_client/
 
 
-# Comme t'es chaud sur le streaming et je comprends, voilà un exemple que je viens d'apprendre, ça récupère le cours de certaines actions et crypto en temps réel.
+# Comme t'es chaud sur le streaming et je comprends, 
+# voilà un exemple que je viens d'apprendre, ça récupère
+# le cours de certaines actions et crypto en temps réel.
 
 
-# avant de lancer le script il faut installer websocket : pip install websocket-client sur le terminal, si çça marche pas je passe t'expliquer le bordel des environnements python
+# avant de lancer le script il faut installer websocket sur le terminal: 
+# pip install websocket-client 
+# si çça marche pas je passe t'expliquer le bordel des environnements python
 
 import websocket
 import datetime
