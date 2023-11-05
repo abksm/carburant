@@ -2,7 +2,7 @@
 
 ### Sources de données
 
-Wesh bin bin wlh le jeu de données des carburants il est cool y'a moyen de faire un beau travail dessus.
+Wesh bin wlh le jeu de données des carburants il est cool y'a moyen de faire un beau travail dessus.
 
 [https://data.economie.gouv.fr/explore/dataset/prix-des-carburants-en-france-flux-instantane-v2/information/](https://data.economie.gouv.fr/explore/dataset/prix-des-carburants-en-france-flux-instantane-v2/information/)
 
