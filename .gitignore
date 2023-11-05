@@ -1,6 +1,8 @@
 # Le fichier .gitignore permet d'indicquer à git les fichiers à ne pas prendre en compte
-# là par exemple sur mon projet j'ai un dossier "z" dans lequel je fous du bordel sans le pusher sur github
+# là par exemple sur mon projet j'ai un dossier "z" dans lequel je fous du bordel sans le pusher sur github, let le dosser "venv" (environnement virtuel python, je t'expliquerais plus tard):
 z/
+venv/
+
 
 # Tu peux aussi ignorer des fichiers en particulier, par exemple ici je ne veux pas pusher mon fichier "kendra_lust.png" :
 kendra_lust.png
