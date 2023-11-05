@@ -18,7 +18,7 @@ attention ça renvoi 10 000 lignes, pour t'entrainer tu peux mettre limit=3 par 
 
 J'te conseille :
 
-  - faire un script python qui récupère les données avec les modules 'requests' et 'json', sauvegarder les données dans des fichiers .csv et .json en local. 
+  - faire un script python qui récupère les données avec le module 'requests', sauvegarder les données dans des fichiers .csv et .json en local. 
   
   Pour l'instant ne t'emmerde pas à tout récolter c'est pas l'important, copilot se chargera plus tard t'écrire toutes les colonnes etc, comme ça je dirais simplement de récolter : 
 
