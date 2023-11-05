@@ -1,3 +1,5 @@
+# installer le module requests avec la commande suivante : pip install requests
+
 import requests
 
 # Spécifiez l'URL du point d'API avec lequel vous souhaitez interagir
