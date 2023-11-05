@@ -25,7 +25,8 @@ J'te conseille :
     - id
     - adresse
     - ville
-    - latitude/longitude
+    - latitude
+    - longitude
     - prix SP98
     - maj SP98
     - prix Gazole
