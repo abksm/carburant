@@ -6,7 +6,7 @@ git push
 # création et switch sur une nouvelle branche
 git checkout -b nouvelle_branche
 
-# liste des branches:
+# liste des branches (pour info):
 git branch
 
 # add, commit & push de la nouvelle branche sur github
