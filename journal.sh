@@ -1,18 +1,14 @@
-# git new branch cmd
-git checkout -b yz
+git checkout -b yzpt
 git add .
 git commit -m "add journal.sh"
-git push origin yz
+git push origin yzpt
 
 git checkout main
 git config pull.rebase false
 git pull origin main
 
-# git delete branch
-git branch -d yz
-git push origin --delete yz
+git branch -d yzpt
+git push origin --delete yzpt
 
-# display origin url
 git remote show origin
 
-#test
