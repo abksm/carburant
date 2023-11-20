@@ -1,0 +1,11 @@
+[2023-11-20T20:42:56.947+0100] {processor.py:157} INFO - Started process (PID=11989) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2023-11-20T20:42:56.950+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py for tasks to queue
+[2023-11-20T20:42:56.952+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:56.951+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2023-11-20T20:42:57.027+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_setup_teardown_taskflow']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py
+[2023-11-20T20:42:57.793+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:57.792+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:57.905+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:57.904+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:57.970+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:57.969+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:57.972+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:57.971+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T20:42:58.142+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:58.140+0100] {dag.py:2963} INFO - Creating ORM DAG for example_setup_teardown_taskflow
+[2023-11-20T20:42:58.225+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:58.224+0100] {dag.py:3722} INFO - Setting next_dagrun for example_setup_teardown_taskflow to 2023-11-19T19:42:58.223850+00:00, run_after=2023-11-20T19:42:58.223850+00:00
+[2023-11-20T20:42:58.351+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown_taskflow.py took 1.419 seconds

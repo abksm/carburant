@@ -1,0 +1,11 @@
+[2023-11-20T20:43:29.668+0100] {processor.py:157} INFO - Started process (PID=12394) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-11-20T20:43:29.672+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py for tasks to queue
+[2023-11-20T20:43:29.678+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:29.675+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-11-20T20:43:29.742+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_passing_params_via_test_command']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+[2023-11-20T20:43:30.400+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:30.398+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:30.507+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:30.506+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:30.560+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:30.559+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:30.562+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:30.561+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T20:43:30.626+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:30.625+0100] {dag.py:2963} INFO - Creating ORM DAG for example_passing_params_via_test_command
+[2023-11-20T20:43:30.721+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:30.720+0100] {dag.py:3722} INFO - Setting next_dagrun for example_passing_params_via_test_command to 2023-11-20T19:42:00+00:00, run_after=2023-11-20T19:43:00+00:00
+[2023-11-20T20:43:30.848+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_passing_params_via_test_command.py took 1.198 seconds

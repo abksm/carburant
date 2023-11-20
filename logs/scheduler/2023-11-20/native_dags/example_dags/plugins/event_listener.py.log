@@ -1,0 +1,5 @@
+[2023-11-20T20:42:47.305+0100] {processor.py:157} INFO - Started process (PID=11983) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-11-20T20:42:47.314+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2023-11-20T20:42:47.320+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:47.318+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-11-20T20:42:47.333+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-11-20T20:42:47.393+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.105 seconds

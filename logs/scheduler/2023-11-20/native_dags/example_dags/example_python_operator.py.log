@@ -1,0 +1,12 @@
+[2023-11-20T20:43:33.660+0100] {processor.py:157} INFO - Started process (PID=12403) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-20T20:43:33.663+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-11-20T20:43:33.667+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:33.665+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-20T20:43:33.710+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:33.709+0100] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-11-20T20:43:33.713+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-20T20:43:34.302+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:34.300+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:34.359+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:34.358+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:34.402+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:34.401+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:34.404+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:34.403+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T20:43:34.466+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:34.466+0100] {dag.py:2963} INFO - Creating ORM DAG for example_python_operator
+[2023-11-20T20:43:34.469+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:34.469+0100] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-11-20T20:43:34.621+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.978 seconds

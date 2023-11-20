@@ -1,0 +1,11 @@
+[2023-11-20T20:42:38.138+0100] {processor.py:157} INFO - Started process (PID=11975) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-20T20:42:38.143+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-11-20T20:42:38.147+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:38.145+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-20T20:42:38.200+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2023-11-20T20:42:38.818+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:38.816+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:38.884+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:38.883+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:38.972+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:38.964+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:38.976+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:38.975+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T20:42:39.066+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:39.065+0100] {dag.py:2963} INFO - Creating ORM DAG for example_task_group
+[2023-11-20T20:42:39.112+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:39.111+0100] {dag.py:3722} INFO - Setting next_dagrun for example_task_group to 2023-11-19T19:42:39.110144+00:00, run_after=2023-11-20T19:42:39.110144+00:00
+[2023-11-20T20:42:39.203+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 1.081 seconds

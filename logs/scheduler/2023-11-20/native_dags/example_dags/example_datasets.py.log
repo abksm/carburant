@@ -1,0 +1,36 @@
+[2023-11-20T20:43:09.064+0100] {processor.py:157} INFO - Started process (PID=11997) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-20T20:43:09.066+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2023-11-20T20:43:09.069+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.068+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-20T20:43:09.107+0100] {processor.py:839} INFO - DAG(s) dict_keys(['dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1_and_2', 'dataset_consumes_1', 'dataset_consumes_1_never_scheduled', 'dataset_produces_1', 'dataset_produces_2']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2023-11-20T20:43:09.535+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.534+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:09.595+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.594+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:09.645+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.644+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:09.763+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.761+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:09.813+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.811+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:09.859+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.857+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:09.992+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:09.991+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.119+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.115+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.277+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.276+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.442+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.440+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.488+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.487+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.545+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.543+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.605+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.604+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.631+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.630+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.651+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.650+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.717+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.716+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.745+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.745+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.765+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.764+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:10.766+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.765+0100] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-11-20T20:43:10.810+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.809+0100] {dag.py:2963} INFO - Creating ORM DAG for dataset_produces_2
+[2023-11-20T20:43:10.812+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.812+0100] {dag.py:2963} INFO - Creating ORM DAG for dataset_produces_1
+[2023-11-20T20:43:10.814+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.814+0100] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_1_and_2
+[2023-11-20T20:43:10.816+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.816+0100] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_unknown_never_scheduled
+[2023-11-20T20:43:10.818+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.818+0100] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_1_never_scheduled
+[2023-11-20T20:43:10.820+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.819+0100] {dag.py:2963} INFO - Creating ORM DAG for dataset_consumes_1
+[2023-11-20T20:43:10.848+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.847+0100] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2023-11-20T20:43:10.850+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.849+0100] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2023-11-20T20:43:10.852+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.851+0100] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2023-11-20T20:43:10.853+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.853+0100] {dag.py:3722} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2023-11-20T20:43:10.860+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.860+0100] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_1 to 2023-11-19T00:00:00+00:00, run_after=2023-11-20T00:00:00+00:00
+[2023-11-20T20:43:10.862+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:10.862+0100] {dag.py:3722} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2023-11-20T20:43:10.993+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 1.939 seconds

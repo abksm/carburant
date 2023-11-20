@@ -1,0 +1,11 @@
+[2023-11-20T20:43:26.154+0100] {processor.py:157} INFO - Started process (PID=12319) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-20T20:43:26.158+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-11-20T20:43:26.163+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:26.161+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-20T20:43:26.314+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-20T20:43:27.680+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:27.678+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:27.749+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:27.748+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:27.802+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:27.801+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:27.806+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:27.805+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-20T20:43:27.934+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:27.933+0100] {dag.py:2963} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2023-11-20T20:43:27.936+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:27.936+0100] {dag.py:3722} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-11-20T20:43:28.163+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 2.028 seconds

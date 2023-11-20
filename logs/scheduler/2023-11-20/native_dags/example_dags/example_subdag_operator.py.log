@@ -1,0 +1,18 @@
+[2023-11-20T20:43:18.290+0100] {processor.py:157} INFO - Started process (PID=12234) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-11-20T20:43:18.293+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2023-11-20T20:43:18.297+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.295+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-11-20T20:43:18.387+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py
+[2023-11-20T20:43:18.838+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.837+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:18.885+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.884+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:18.919+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.918+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:43:18.920+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.919+0100] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-11-20T20:43:18.953+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.953+0100] {dag.py:2963} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2023-11-20T20:43:18.955+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.955+0100] {dag.py:2963} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2023-11-20T20:43:18.957+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.957+0100] {dag.py:2963} INFO - Creating ORM DAG for example_subdag_operator
+[2023-11-20T20:43:18.989+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.988+0100] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator to 2022-01-01T00:00:00+00:00, run_after=2022-01-01T00:00:00+00:00
+[2023-11-20T20:43:18.990+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.990+0100] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-11-20T20:43:18.992+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:18.991+0100] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-11-20T20:43:19.018+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:19.017+0100] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-11-20T20:43:19.042+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:19.041+0100] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2023-11-20T20:43:19.057+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:43:19.056+0100] {dag.py:3722} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2023-11-20T20:43:19.130+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_subdag_operator.py took 0.851 seconds

@@ -1,0 +1,16 @@
+[2023-11-20T20:42:36.043+0100] {processor.py:157} INFO - Started process (PID=11953) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-11-20T20:42:36.046+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2023-11-20T20:42:36.050+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.048+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-11-20T20:42:36.086+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom_args', 'example_xcom_args_with_operators']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py
+[2023-11-20T20:42:36.468+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.467+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:36.552+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.549+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:36.613+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.609+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:36.767+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.765+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:36.830+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.824+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:36.918+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.917+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-20T20:42:36.920+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:36.920+0100] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-11-20T20:42:37.223+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:37.211+0100] {dag.py:2963} INFO - Creating ORM DAG for example_xcom_args
+[2023-11-20T20:42:37.233+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:37.233+0100] {dag.py:2963} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2023-11-20T20:42:37.254+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:37.247+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2023-11-20T20:42:37.259+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:37.257+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2023-11-20T20:42:37.499+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcomargs.py took 1.465 seconds
