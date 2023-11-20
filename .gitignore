@@ -1,10 +1,4 @@
-# Le fichier .gitignore permet d'indiquer les fichiers locaux à ne pas prendre en compte
-# là par exemple sur mon projet j'ai un dossier "z" dans lequel je fous du bordel sans le pusher sur github, let le dosser "venv" (environnement virtuel python, je t'expliquerais plus tard):
 z/
 venv/
 
-# ne pas prendre en compte les fichiers commençant par key
 key*
-
-requirements.txt
-```
