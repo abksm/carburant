@@ -54,17 +54,15 @@ gcloud billing projects link $PROJECT_ID --billing-account=$BILLING_ACCOUNT_ID
 
 
 
-# =====================   AIRFLOW   ========================================================================
+# =====================   AIRFLOW   ============================================================================
 # https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=2142s
 
-# Airflow py_env ===========================================================================================
+# === Airflow py_env ===========================================================================================
 pip install "apache-airflow[celery]==2.7.2" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.2/constraints-3.10.txt"
-# set env variable
 export AIRFLOW_HOME=/home/yzpt/projects/carburant_gcp
 airflow db init
 airflow users create --username admin --firstname Peter --lastname Parker --role Admin --email allo@allo.com
 airflow webserver --port 8080
-
 # new term:
 export AIRFLOW_HOME=/home/yzpt/projects/carburant_gcp
 airflow scheduler
@@ -73,7 +71,7 @@ airflow scheduler
 
 
 
-# Airflow Docker ===========================================================================================
+# === Airflow Docker ===========================================================================================
 # https://airflow.apache.org/docs/docker-stack/index.html
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.7.3/docker-compose.yaml'
 mkdir ./dags ./logs ./plugins
