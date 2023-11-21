@@ -1,6 +1,7 @@
 import requests
 from datetime import datetime
 import psycopg2
+import json
 
 conn = psycopg2.connect(
     database="carburants",
@@ -11,15 +12,16 @@ conn = psycopg2.connect(
 )
 
 def extract_data():
-    limit = 3
-    url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?limit={limit}&timezone=Europe%2FParis"
+    # limit = 3
+    # url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?limit={limit}&timezone=Europe%2FParis"
+    url = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?timezone=Europe%2FParis"
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
         record_timestamp = datetime.now()
         # save into json file
-        # with open(f"data/carburants_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json", "w") as f:
-        #     f.write(json.dumps(data['results'], indent=4))
+        with open(f"carburants_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json", "w") as f:
+            f.write(json.dumps(data['results'], indent=4))
 
         cur = conn.cursor()
 
@@ -28,25 +30,22 @@ def extract_data():
             fields['record_timestamp'] = record_timestamp
             sql = """
             INSERT INTO raw_fields (
-                id, latitude, longitude, cp, pop, adresse, ville, horaires, services, prix, lon, lat, gazole_maj, gazole_prix, sp95_maj, sp95_prix, e85_maj, e85_prix, gplc_maj, gplc_prix, e10_maj, e10_prix, sp98_maj, sp98_prix, carburants_disponibles, carburants_indisponibles, horaires_automate_24_24, services_service, departement, code_departement, region, code_region, record_timestamp
+                id, cp, pop, adresse, ville, horaires, services, latitude, longitude, gazole_maj, gazole_prix, sp95_maj, sp95_prix, e85_maj, e85_prix, gplc_maj, gplc_prix, e10_maj, e10_prix, sp98_maj, sp98_prix, carburants_disponibles, carburants_indisponibles, horaires_automate_24_24, departement, code_departement, region, code_region, record_timestamp
             ) VALUES (
-                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
+                %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s
             )
             """
-            
+
             cur.execute(sql, (
                 fields.get('id'), 
-                fields.get('latitude'), 
-                fields.get('longitude'),
                 fields.get('cp'),
                 fields.get('pop'),
                 fields.get('adresse'),
                 fields.get('ville'),
                 fields.get('horaires'), 
-                fields.get('services'), 
-                fields.get('prix'), 
-                fields.get('lon'), 
-                fields.get('lat'),
+                fields.get('services_service'), 
+                fields['geom'].get('lon'), 
+                fields['geom'].get('lat'),
                 fields.get('gazole_maj'), 
                 fields.get('gazole_prix'), 
                 fields.get('sp95_maj'), 
@@ -62,7 +61,6 @@ def extract_data():
                 fields.get('carburants_disponibles'), 
                 fields.get('carburants_indisponibles'), 
                 fields.get('horaires_automate_24_24'), 
-                fields.get('services_service'), 
                 fields.get('departement'), 
                 fields.get('code_departement'), 
                 fields.get('region'), 

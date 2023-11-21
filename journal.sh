@@ -41,21 +41,23 @@ ALTER ROLE yzpt SET timezone TO 'Europe/Paris';
 GRANT ALL PRIVILEGES ON DATABASE carburants TO yzpt;
 EOF
 
+
+sudo -i -u yzpt psql carburants <<EOF
+DROP TABLE IF EXISTS raw_fields;
+EOF
+
 sudo -i -u yzpt psql carburants <<EOF
 CREATE TABLE IF NOT EXISTS raw_fields (
     record_timestamp TIMESTAMP,
     id BIGINT,
-    latitude TEXT,
+    latitude REAL,
     longitude REAL,
-    cp TEXT,
+    cp VARCHAR(50),
     pop TEXT,
     adresse TEXT,
-    ville TEXT,
+    ville VARCHAR(50),
     horaires TEXT,
     services TEXT,
-    prix TEXT,
-    lon REAL,
-    lat REAL,
     gazole_maj TIMESTAMP,
     gazole_prix REAL,
     sp95_maj TIMESTAMP,
@@ -68,30 +70,26 @@ CREATE TABLE IF NOT EXISTS raw_fields (
     e10_prix REAL,
     sp98_maj TIMESTAMP,
     sp98_prix REAL,
-    carburants_disponibles TEXT,
-    carburants_indisponibles TEXT,
+    carburants_disponibles VARCHAR(50),
+    carburants_indisponibles VARCHAR(50),
     horaires_automate_24_24 TEXT,
-    services_service TEXT,
-    departement TEXT,
-    code_departement TEXT,
-    region TEXT,
-    code_region TEXT,
+    departement VARCHAR(50),
+    code_departement VARCHAR(50),
+    region VARCHAR(50),
+    code_region VARCHAR(50),
     PRIMARY KEY (record_timestamp, id)
 );
 EOF
 
 
+
+SELECT id, record_timestamp from raw_fields ORDER BY record_timestamp DESC LIMIT 5;
+
+sudo -i -u yzpt psql carburants <<EOF > query_results.txt
+SELECT * FROM raw_fields ORDER BY record_timestamp DESC;
+EOF
+
 # === DOCKER ===================================================================================================
-# rename branch
-git checkout -b docker
-git add . && git commit -m "docker first commit"
-git push --set-upstream origin docker
-
-git checkout local
-git add .
-git commit -m "pipeline ok"
-git push
-
 
 # === Airflow Docker ===========================================================================================
 # https://airflow.apache.org/docs/docker-stack/index.html
@@ -101,3 +99,6 @@ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 docker compose up airflow-init
 docker compose down --volumes --remove-orphans
 docker compose up
+
+
+git add . && git commit -m "airflow docker" && git push origin docker   
