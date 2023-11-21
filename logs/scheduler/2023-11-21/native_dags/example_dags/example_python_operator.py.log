@@ -1,0 +1,16 @@
+[2023-11-21T09:25:43.218+0100] {processor.py:157} INFO - Started process (PID=8011) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-21T09:25:43.218+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-11-21T09:25:43.219+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:43.219+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-21T09:25:43.227+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:43.227+0100] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-11-21T09:25:43.227+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-21T09:25:43.243+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:43.243+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:43.253+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:43.253+0100] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-11-21T09:25:43.272+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.057 seconds
+[2023-11-21T09:26:31.640+0100] {processor.py:157} INFO - Started process (PID=8499) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-21T09:26:31.644+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-11-21T09:26:31.647+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:31.646+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-21T09:26:31.668+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:31.668+0100] {example_python_operator.py:89} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-11-21T09:26:31.669+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2023-11-21T09:26:31.687+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:31.687+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:31.697+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:31.697+0100] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-11-21T09:26:31.717+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.083 seconds

@@ -1,0 +1,21 @@
+[2023-11-21T09:25:07.462+0100] {processor.py:157} INFO - Started process (PID=7760) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:25:07.462+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-21T09:25:07.463+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:07.463+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:25:07.472+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:25:07.493+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:07.493+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:07.510+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:07.510+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-21T09:25:07.529+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.070 seconds
+[2023-11-21T09:25:56.404+0100] {processor.py:157} INFO - Started process (PID=8207) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:25:56.407+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-21T09:25:56.408+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:56.407+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:25:56.416+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:25:56.433+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:56.433+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:56.451+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:56.451+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-21T09:25:56.473+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.071 seconds
+[2023-11-21T09:26:36.931+0100] {processor.py:157} INFO - Started process (PID=8534) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:26:36.934+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py for tasks to queue
+[2023-11-21T09:26:36.935+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:36.934+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:26:36.948+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_xcom']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py
+[2023-11-21T09:26:36.971+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:36.971+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:36.999+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:36.998+0100] {dag.py:3722} INFO - Setting next_dagrun for example_xcom to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-11-21T09:26:37.032+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_xcom.py took 0.105 seconds

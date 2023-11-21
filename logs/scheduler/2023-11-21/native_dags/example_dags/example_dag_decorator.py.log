@@ -1,0 +1,14 @@
+[2023-11-21T09:25:41.888+0100] {processor.py:157} INFO - Started process (PID=8007) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-21T09:25:41.889+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-11-21T09:25:41.890+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:41.889+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-21T09:25:41.959+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-21T09:25:42.046+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:42.046+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:42.054+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:42.054+0100] {dag.py:3722} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-11-21T09:25:42.086+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.200 seconds
+[2023-11-21T09:26:30.242+0100] {processor.py:157} INFO - Started process (PID=8498) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-21T09:26:30.246+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py for tasks to queue
+[2023-11-21T09:26:30.247+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:30.246+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-21T09:26:30.340+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_dag_decorator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py
+[2023-11-21T09:26:30.438+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:30.438+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:30.446+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:30.446+0100] {dag.py:3722} INFO - Setting next_dagrun for example_dag_decorator to None, run_after=None
+[2023-11-21T09:26:30.467+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_dag_decorator.py took 0.230 seconds

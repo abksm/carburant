@@ -1,0 +1,21 @@
+[2023-11-21T09:25:22.334+0100] {processor.py:157} INFO - Started process (PID=7841) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:25:22.335+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-21T09:25:22.336+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:22.336+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:25:22.345+0100] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:25:22.360+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:22.360+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:22.378+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:22.378+0100] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-11-21T04:25:22.378263+00:00, run_after=2023-11-21T08:25:22.378263+00:00
+[2023-11-21T09:25:22.406+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.076 seconds
+[2023-11-21T09:26:12.051+0100] {processor.py:157} INFO - Started process (PID=8390) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:26:12.054+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-21T09:26:12.055+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:12.054+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:26:12.061+0100] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:26:12.080+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:12.079+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:12.108+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:12.108+0100] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-11-21T04:26:12.107791+00:00, run_after=2023-11-21T08:26:12.107791+00:00
+[2023-11-21T09:26:12.140+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.095 seconds
+[2023-11-21T09:26:58.881+0100] {processor.py:157} INFO - Started process (PID=8574) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:26:58.884+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-11-21T09:26:58.885+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:58.885+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:26:58.890+0100] {processor.py:839} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-11-21T09:26:58.904+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:58.904+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:58.922+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:58.922+0100] {dag.py:3722} INFO - Setting next_dagrun for latest_only to 2023-11-21T04:26:58.921816+00:00, run_after=2023-11-21T08:26:58.921816+00:00
+[2023-11-21T09:26:58.940+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.061 seconds

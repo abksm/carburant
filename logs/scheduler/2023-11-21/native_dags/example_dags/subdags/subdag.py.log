@@ -1,0 +1,15 @@
+[2023-11-21T09:25:20.918+0100] {processor.py:157} INFO - Started process (PID=7833) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:25:20.919+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-21T09:25:20.919+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:20.919+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:25:20.922+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:25:20.931+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.018 seconds
+[2023-11-21T09:26:09.370+0100] {processor.py:157} INFO - Started process (PID=8372) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:26:09.372+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-21T09:26:09.373+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:09.373+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:26:09.376+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:26:09.389+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.024 seconds
+[2023-11-21T09:26:56.532+0100] {processor.py:157} INFO - Started process (PID=8567) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:26:56.535+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py for tasks to queue
+[2023-11-21T09:26:56.536+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:56.536+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:26:56.538+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py
+[2023-11-21T09:26:56.548+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/subdags/subdag.py took 0.019 seconds

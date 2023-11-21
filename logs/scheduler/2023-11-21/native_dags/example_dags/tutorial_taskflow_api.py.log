@@ -1,0 +1,21 @@
+[2023-11-21T09:25:12.100+0100] {processor.py:157} INFO - Started process (PID=7796) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:25:12.103+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-21T09:25:12.105+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:12.104+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:25:12.123+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:25:12.145+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:12.145+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:12.154+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:12.154+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-21T09:25:12.181+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.090 seconds
+[2023-11-21T09:26:00.279+0100] {processor.py:157} INFO - Started process (PID=8250) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:26:00.283+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-21T09:26:00.284+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:00.284+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:26:00.294+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:26:00.320+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:00.320+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:00.352+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:00.352+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-21T09:26:00.390+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.117 seconds
+[2023-11-21T09:26:39.942+0100] {processor.py:157} INFO - Started process (PID=8538) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:26:39.945+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py for tasks to queue
+[2023-11-21T09:26:39.947+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:39.946+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:26:39.957+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_taskflow_api']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py
+[2023-11-21T09:26:39.980+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:39.980+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:39.991+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:39.991+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_taskflow_api to None, run_after=None
+[2023-11-21T09:26:40.009+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api.py took 0.070 seconds

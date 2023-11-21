@@ -1,0 +1,18 @@
+[2023-11-21T09:25:46.905+0100] {processor.py:157} INFO - Started process (PID=8014) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-21T09:25:46.907+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-11-21T09:25:46.908+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:46.907+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-21T09:25:46.926+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-21T09:25:47.044+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:47.044+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-21T09:25:47.055+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:47.054+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-21T09:25:47.073+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:47.073+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-21T09:25:47.074+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:47.074+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:47.083+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:47.082+0100] {dag.py:2963} INFO - Creating ORM DAG for example_branch_operator
+[2023-11-21T09:25:47.091+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:47.091+0100] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-11-20T00:00:00+00:00, run_after=2023-11-21T00:00:00+00:00
+[2023-11-21T09:25:47.109+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.208 seconds
+[2023-11-21T09:26:35.071+0100] {processor.py:157} INFO - Started process (PID=8532) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-21T09:26:35.074+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-11-21T09:26:35.074+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:35.074+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-21T09:26:35.084+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-11-21T09:26:35.102+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:35.102+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:35.121+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:35.120+0100] {dag.py:3722} INFO - Setting next_dagrun for example_branch_operator to 2023-11-20T00:00:00+00:00, run_after=2023-11-21T00:00:00+00:00
+[2023-11-21T09:26:35.138+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.070 seconds

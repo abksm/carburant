@@ -1,0 +1,14 @@
+[2023-11-21T09:25:36.533+0100] {processor.py:157} INFO - Started process (PID=7994) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-21T09:25:36.536+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-11-21T09:25:36.538+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:36.537+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-21T09:25:36.563+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-21T09:25:36.584+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:36.584+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:36.603+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:36.603+0100] {dag.py:3722} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-11-20T00:00:00+00:00, run_after=2023-11-21T00:00:00+00:00
+[2023-11-21T09:25:36.623+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.098 seconds
+[2023-11-21T09:26:25.061+0100] {processor.py:157} INFO - Started process (PID=8463) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-21T09:26:25.064+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py for tasks to queue
+[2023-11-21T09:26:25.065+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:25.065+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-21T09:26:25.079+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_nested_branch_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py
+[2023-11-21T09:26:25.105+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:25.105+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:25.127+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:25.127+0100] {dag.py:3722} INFO - Setting next_dagrun for example_nested_branch_dag to 2023-11-20T00:00:00+00:00, run_after=2023-11-21T00:00:00+00:00
+[2023-11-21T09:26:25.150+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_nested_branch_dag.py took 0.094 seconds

@@ -1,0 +1,21 @@
+[2023-11-21T09:25:34.078+0100] {processor.py:157} INFO - Started process (PID=7992) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:25:34.079+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-21T09:25:34.080+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:34.079+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:25:34.091+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:25:34.107+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:34.107+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:34.130+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:34.130+0100] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-21T08:22:00+00:00, run_after=2023-11-21T08:24:00+00:00
+[2023-11-21T09:25:34.151+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.078 seconds
+[2023-11-21T09:26:23.138+0100] {processor.py:157} INFO - Started process (PID=8431) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:26:23.141+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-21T09:26:23.143+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:23.142+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:26:23.152+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:26:23.171+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:23.171+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:23.209+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:23.209+0100] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-21T08:24:00+00:00, run_after=2023-11-21T08:26:00+00:00
+[2023-11-21T09:26:23.256+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.121 seconds
+[2023-11-21T09:27:07.475+0100] {processor.py:157} INFO - Started process (PID=8592) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:27:07.478+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2023-11-21T09:27:07.479+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:27:07.478+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:27:07.486+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py
+[2023-11-21T09:27:07.500+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:27:07.500+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:27:07.520+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:27:07.520+0100] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2023-11-21T08:24:00+00:00, run_after=2023-11-21T08:26:00+00:00
+[2023-11-21T09:27:07.538+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_sla_dag.py took 0.066 seconds

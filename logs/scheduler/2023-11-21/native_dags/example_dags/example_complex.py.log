@@ -1,0 +1,18 @@
+[2023-11-21T09:25:48.425+0100] {processor.py:157} INFO - Started process (PID=8019) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-21T09:25:48.427+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-21T09:25:48.428+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:48.428+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-21T09:25:48.445+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-21T09:25:48.552+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:48.552+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-21T09:25:48.561+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:48.561+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-21T09:25:48.581+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:48.581+0100] {manager.py:499} INFO - Created Permission View: %s
+[2023-11-21T09:25:48.581+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:48.581+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:48.590+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:48.590+0100] {dag.py:2963} INFO - Creating ORM DAG for example_complex
+[2023-11-21T09:25:48.591+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:48.591+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-21T09:25:48.610+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.189 seconds
+[2023-11-21T09:26:47.246+0100] {processor.py:157} INFO - Started process (PID=8545) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-21T09:26:47.247+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2023-11-21T09:26:47.247+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:47.247+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-21T09:26:47.257+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_complex']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py
+[2023-11-21T09:26:47.281+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:47.281+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:47.291+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:47.291+0100] {dag.py:3722} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2023-11-21T09:26:47.318+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_complex.py took 0.075 seconds

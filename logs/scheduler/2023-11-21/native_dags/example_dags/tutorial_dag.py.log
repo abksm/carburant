@@ -1,0 +1,21 @@
+[2023-11-21T09:25:08.631+0100] {processor.py:157} INFO - Started process (PID=7761) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:25:08.632+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-11-21T09:25:08.632+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:08.632+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:25:08.639+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:25:08.661+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:08.661+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:08.671+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:08.670+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-11-21T09:25:08.689+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.061 seconds
+[2023-11-21T09:25:57.542+0100] {processor.py:157} INFO - Started process (PID=8223) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:25:57.544+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-11-21T09:25:57.545+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:57.545+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:25:57.551+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:25:57.565+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:57.565+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:57.575+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:57.575+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-11-21T09:25:57.593+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.054 seconds
+[2023-11-21T09:26:38.218+0100] {processor.py:157} INFO - Started process (PID=8535) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:26:38.223+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py for tasks to queue
+[2023-11-21T09:26:38.226+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:38.225+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:26:38.237+0100] {processor.py:839} INFO - DAG(s) dict_keys(['tutorial_dag']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py
+[2023-11-21T09:26:38.256+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:38.256+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:38.269+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:38.269+0100] {dag.py:3722} INFO - Setting next_dagrun for tutorial_dag to None, run_after=None
+[2023-11-21T09:26:38.295+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_dag.py took 0.087 seconds

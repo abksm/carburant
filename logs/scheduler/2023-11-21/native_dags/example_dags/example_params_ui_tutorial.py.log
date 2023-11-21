@@ -1,0 +1,14 @@
+[2023-11-21T09:25:39.222+0100] {processor.py:157} INFO - Started process (PID=8000) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-21T09:25:39.223+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-11-21T09:25:39.223+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:39.223+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-21T09:25:39.259+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-21T09:25:39.396+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:39.396+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:25:39.408+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:25:39.408+0100] {dag.py:3722} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-11-21T09:25:39.437+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.218 seconds
+[2023-11-21T09:26:28.522+0100] {processor.py:157} INFO - Started process (PID=8481) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-21T09:26:28.525+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-11-21T09:26:28.526+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:28.526+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-21T09:26:28.551+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-11-21T09:26:28.591+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:28.590+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2023-11-21T09:26:28.600+0100] {logging_mixin.py:151} INFO - [2023-11-21T09:26:28.600+0100] {dag.py:3722} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-11-21T09:26:28.629+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.111 seconds
