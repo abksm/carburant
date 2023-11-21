@@ -1,18 +1,3 @@
-git checkout -b yzpt
-git add .
-git commit -m "add journal.sh"
-git push origin yzpt
-
-git checkout main
-git config pull.rebase false
-git pull origin main
-
-git branch -d yzpt
-git push origin --delete yzpt
-
-git remote show origin
-
-
 # venv
 python3 -m venv venv
 source venv/bin/activate
@@ -125,3 +110,7 @@ SELECT id, lat, lon FROM raw_fields LIMIT 10;
 pip install psycopg2-binary
 
 # local pipeline ok
+
+
+# rename branch
+git branch -m yzpt local
