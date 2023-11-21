@@ -24,38 +24,6 @@ pip freeze > requirements.txt
 
 
 
-
-# === GCP Composer ==============================================================================================
-# gcloud config
-PROJECT_ID=carburants-yzpt
-
-gcloud projects create $PROJECT_ID --name="Carburants"
-gcloud config set project $PROJECT_ID
-
-gcloud iam service-accounts create $PROJECT_ID-SA --display-name="$PROJECT_ID Service Account"
-SERVICE_ACCOUNT_EMAIL=$PROJECT_ID-SA@$PROJECT_ID.iam.gserviceaccount.com
-gcloud iam service-accounts keys create key-$PROJECT_ID-SA.json --iam-account=$SERVICE_ACCOUNT_EMAIL
-
-# enable APIs
-gcloud services enable bigquery.googleapis.com
-gcloud services enable storage.googleapis.com
-gcloud services enable composer.googleapis.com
-
-# permissions
-gcloud projects add-iam-policy-binding $PROJECT_ID --member="serviceAccount:$SERVICE_ACCOUNT_EMAIL" --role="roles/bigquery.dataEditor"
-gcloud projects add-iam-policy-binding $PROJECT_ID --member="serviceAccount:$SERVICE_ACCOUNT_EMAIL" --role="roles/storage.admin"
-gcloud projects add-iam-policy-binding $PROJECT_ID --member="serviceAccount:$SERVICE_ACCOUNT_EMAIL" --role="roles/composer.editor"
-
-
-# service accounts list
-gcloud iam service-accounts list
-
-BILLING_ACCOUNT_ID=$(gcloud alpha billing accounts list --format="value(ACCOUNT_ID)")
-gcloud billing projects link $PROJECT_ID --billing-account=$BILLING_ACCOUNT_ID
-
-
-
-
 # =====================   AIRFLOW   ============================================================================
 # https://www.youtube.com/watch?v=K9AnJ9_ZAXE&t=2142s
 
@@ -79,6 +47,7 @@ airflow users create --username admin --firstname Yohann --lastname Zapart --rol
 source venv/bin/activate
 export AIRFLOW_HOME=/home/yzpt/projects/carburant_gcp
 airflow webserver --port 8080
+sudo kill 4426
 
 # sheduler starter
 source venv/bin/activate
@@ -92,6 +61,7 @@ airflow scheduler
 # https://doc.ubuntu-fr.org/postgresql
 sudo apt install postgresql
 
+
 sudo -i -u postgres psql <<EOF
 CREATE DATABASE carburants;
 CREATE USER yzpt WITH PASSWORD 'yzpt';
@@ -102,8 +72,13 @@ GRANT ALL PRIVILEGES ON DATABASE carburants TO yzpt;
 EOF
 
 sudo -i -u yzpt psql carburants
+
+# drop table
+DROP TABLE IF EXISTS raw_fields;
+
 CREATE TABLE IF NOT EXISTS raw_fields (
-    id BIGINT PRIMARY KEY,
+    record_timestamp TIMESTAMP,
+    id BIGINT,
     latitude TEXT,
     longitude REAL,
     cp TEXT,
@@ -134,10 +109,19 @@ CREATE TABLE IF NOT EXISTS raw_fields (
     departement TEXT,
     code_departement TEXT,
     region TEXT,
-    code_region TEXT
+    code_region TEXT,
+    PRIMARY KEY (record_timestamp, id)
 );
 
+# psql get columns of a table
+\d raw_fields
+
+# select *...
+SELECT id, record_timestamp FROM raw_fields LIMIT 10;
+
+SELECT id, lat, lon FROM raw_fields LIMIT 10;
 
 
 pip install psycopg2-binary
 
+# local pipeline ok

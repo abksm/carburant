@@ -1,0 +1,13 @@
+[2023-11-21T15:39:03.077+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: carburants_request.carburants_request scheduled__2023-11-21T14:38:00+00:00 [queued]>
+[2023-11-21T15:39:03.082+0100] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: carburants_request.carburants_request scheduled__2023-11-21T14:38:00+00:00 [queued]>
+[2023-11-21T15:39:03.083+0100] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-11-21T15:39:03.102+0100] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): carburants_request> on 2023-11-21 14:38:00+00:00
+[2023-11-21T15:39:03.104+0100] {standard_task_runner.py:57} INFO - Started process 42336 to run task
+[2023-11-21T15:39:03.107+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'carburants_request', 'carburants_request', 'scheduled__2023-11-21T14:38:00+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/carburants_request_DAG.py', '--cfg-path', '/tmp/tmpze265raw']
+[2023-11-21T15:39:03.108+0100] {standard_task_runner.py:85} INFO - Job 29: Subtask carburants_request
+[2023-11-21T15:39:03.135+0100] {task_command.py:416} INFO - Running <TaskInstance: carburants_request.carburants_request scheduled__2023-11-21T14:38:00+00:00 [running]> on host yzpt-Lenovo-ideapad-320S-14IKB
+[2023-11-21T15:39:03.192+0100] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='carburants_request' AIRFLOW_CTX_TASK_ID='carburants_request' AIRFLOW_CTX_EXECUTION_DATE='2023-11-21T14:38:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-11-21T14:38:00+00:00'
+[2023-11-21T15:39:03.608+0100] {python.py:194} INFO - Done. Returned value was: None
+[2023-11-21T15:39:03.612+0100] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=carburants_request, task_id=carburants_request, execution_date=20231121T143800, start_date=20231121T143903, end_date=20231121T143903
+[2023-11-21T15:39:03.641+0100] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-11-21T15:39:03.652+0100] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

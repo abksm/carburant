@@ -1106,3 +1106,98 @@ File Path                                                         PID    Runtime
 ----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T09:36:31
 ================================================================================
+[2023-11-21T15:36:58.734+0100] {manager.py:487} INFO - Processing files using up to 1 processes at a time 
+[2023-11-21T15:36:58.736+0100] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-11-21T15:36:58.737+0100] {manager.py:489} INFO - Checking for new files in /home/yzpt/projects/carburant_gcp/dags every 300 seconds
+[2023-11-21T15:36:58.738+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/carburant_gcp/dags
+[2023-11-21T15:36:58.741+0100] {manager.py:758} INFO - There are 1 files in /home/yzpt/projects/carburant_gcp/dags
+[2023-11-21T15:36:58.909+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:36:58
+================================================================================
+[2023-11-21T15:37:30.062+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:37:30
+================================================================================
+[2023-11-21T15:38:00.288+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:38:00
+================================================================================
+[2023-11-21T15:38:30.526+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.11s           2023-11-21T14:38:30
+================================================================================
+[2023-11-21T15:39:00.828+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.20s           2023-11-21T14:39:00
+================================================================================
+[2023-11-21T15:39:31.049+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.20s           2023-11-21T14:39:31
+================================================================================
+[2023-11-21T15:40:01.190+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:40:01
+================================================================================
+[2023-11-21T15:40:31.488+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:40:31
+================================================================================
+[2023-11-21T15:41:01.706+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:41:01
+================================================================================
+[2023-11-21T15:41:31.908+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:41:31
+================================================================================
+[2023-11-21T15:41:58.756+0100] {manager.py:755} INFO - Searching for files in /home/yzpt/projects/carburant_gcp/dags
+[2023-11-21T15:41:58.757+0100] {manager.py:758} INFO - There are 1 files in /home/yzpt/projects/carburant_gcp/dags
+[2023-11-21T15:42:02.217+0100] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T14:42:02
+================================================================================
