@@ -1,0 +1,151 @@
+[
+    {
+        "id": 68200004,
+        "latitude": "4773900",
+        "longitude": 729200.0,
+        "cp": "68200",
+        "pop": "R",
+        "adresse": "258 RUE DE BELFORT",
+        "ville": "Mulhouse",
+        "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"20.00\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"08.30\", \"@fermeture\": \"19.00\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"1\"}]}",
+        "services": "{\"service\": [\"Station de gonflage\", \"Vente de gaz domestique (Butane, Propane)\", \"Automate CB 24/24\", \"DAB (Distributeur automatique de billets)\"]}",
+        "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 07:10:36\", \"@valeur\": \"1.829\"}, {\"@nom\": \"E85\", \"@id\": \"3\", \"@maj\": \"2023-11-21 07:10:36\", \"@valeur\": \"0.994\"}, {\"@nom\": \"GPLc\", \"@id\": \"4\", \"@maj\": \"2023-11-21 07:10:36\", \"@valeur\": \"1.050\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-21 07:10:36\", \"@valeur\": \"1.825\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-21 07:10:36\", \"@valeur\": \"1.899\"}]",
+        "geom": {
+            "lon": 7.292,
+            "lat": 47.739
+        },
+        "gazole_maj": "2023-11-21 07:10:36",
+        "gazole_prix": "1.829",
+        "sp95_maj": null,
+        "sp95_prix": null,
+        "e85_maj": "2023-11-21 07:10:36",
+        "e85_prix": "0.994",
+        "gplc_maj": "2023-11-21 07:10:36",
+        "gplc_prix": "1.050",
+        "e10_maj": "2023-11-21 07:10:36",
+        "e10_prix": "1.825",
+        "sp98_maj": "2023-11-21 07:10:36",
+        "sp98_prix": "1.899",
+        "carburants_disponibles": [
+            "Gazole",
+            "E85",
+            "GPLc",
+            "E10",
+            "SP98"
+        ],
+        "carburants_indisponibles": [
+            "SP95"
+        ],
+        "horaires_automate_24_24": "Oui",
+        "services_service": [
+            "Station de gonflage",
+            "Vente de gaz domestique (Butane, Propane)",
+            "Automate CB 24/24",
+            "DAB (Distributeur automatique de billets)"
+        ],
+        "departement": "Haut-Rhin",
+        "code_departement": "68",
+        "region": "Grand Est",
+        "code_region": "44"
+    },
+    {
+        "id": 70300004,
+        "latitude": "4782100",
+        "longitude": 638500.0,
+        "cp": "70300",
+        "pop": "R",
+        "adresse": "27 Rue des Martyrs de la R\u00e9sistance",
+        "ville": "Luxeuil-les-Bains",
+        "horaires": "{\"@automate-24-24\": \"1\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\"}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\"}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\"}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\"}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\"}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\"}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\"}]}",
+        "services": "{\"service\": [\"Vente de fioul domestique\", \"Station de gonflage\", \"Services r\u00e9paration / entretien\", \"Vente d'additifs carburants\", \"Automate CB 24/24\"]}",
+        "prix": "{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-21 08:18:33\", \"@valeur\": \"1.800\"}",
+        "geom": {
+            "lon": 6.385,
+            "lat": 47.821
+        },
+        "gazole_maj": "2023-11-21 08:18:33",
+        "gazole_prix": "1.800",
+        "sp95_maj": null,
+        "sp95_prix": null,
+        "e85_maj": null,
+        "e85_prix": null,
+        "gplc_maj": null,
+        "gplc_prix": null,
+        "e10_maj": null,
+        "e10_prix": null,
+        "sp98_maj": null,
+        "sp98_prix": null,
+        "carburants_disponibles": [
+            "Gazole"
+        ],
+        "carburants_indisponibles": [
+            "SP95",
+            "E85",
+            "GPLc",
+            "E10",
+            "SP98"
+        ],
+        "horaires_automate_24_24": "Oui",
+        "services_service": [
+            "Vente de fioul domestique",
+            "Station de gonflage",
+            "Services r\u00e9paration / entretien",
+            "Vente d'additifs carburants",
+            "Automate CB 24/24"
+        ],
+        "departement": "Haute-Sa\u00f4ne",
+        "code_departement": "70",
+        "region": "Bourgogne-Franche-Comt\u00e9",
+        "code_region": "27"
+    },
+    {
+        "id": 93250004,
+        "latitude": "4888500",
+        "longitude": 250700.0,
+        "cp": "93250",
+        "pop": "R",
+        "adresse": "8 Avenue de Rosny-sous-Bois",
+        "ville": "Villemomble",
+        "horaires": "{\"@automate-24-24\": \"\", \"jour\": [{\"@id\": \"1\", \"@nom\": \"Lundi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.30\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"2\", \"@nom\": \"Mardi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.30\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"3\", \"@nom\": \"Mercredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.30\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"4\", \"@nom\": \"Jeudi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.30\", \"@fermeture\": \"22.00\"}}, {\"@id\": \"5\", \"@nom\": \"Vendredi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"05.30\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"6\", \"@nom\": \"Samedi\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"23.59\"}}, {\"@id\": \"7\", \"@nom\": \"Dimanche\", \"@ferme\": \"\", \"horaire\": {\"@ouverture\": \"06.00\", \"@fermeture\": \"22.00\"}}]}",
+        "services": "{\"service\": [\"Boutique alimentaire\", \"Station de gonflage\", \"Carburant additiv\u00e9\", \"Lavage automatique\", \"Lavage manuel\"]}",
+        "prix": "[{\"@nom\": \"Gazole\", \"@id\": \"1\", \"@maj\": \"2023-11-20 06:18:04\", \"@valeur\": \"1.899\"}, {\"@nom\": \"E10\", \"@id\": \"5\", \"@maj\": \"2023-11-20 06:18:04\", \"@valeur\": \"1.939\"}, {\"@nom\": \"SP98\", \"@id\": \"6\", \"@maj\": \"2023-11-20 06:18:04\", \"@valeur\": \"1.999\"}]",
+        "geom": {
+            "lon": 2.507,
+            "lat": 48.885
+        },
+        "gazole_maj": "2023-11-20 06:18:04",
+        "gazole_prix": "1.899",
+        "sp95_maj": null,
+        "sp95_prix": null,
+        "e85_maj": null,
+        "e85_prix": null,
+        "gplc_maj": null,
+        "gplc_prix": null,
+        "e10_maj": "2023-11-20 06:18:04",
+        "e10_prix": "1.939",
+        "sp98_maj": "2023-11-20 06:18:04",
+        "sp98_prix": "1.999",
+        "carburants_disponibles": [
+            "Gazole",
+            "E10",
+            "SP98"
+        ],
+        "carburants_indisponibles": [
+            "SP95",
+            "E85",
+            "GPLc"
+        ],
+        "horaires_automate_24_24": "Non",
+        "services_service": [
+            "Boutique alimentaire",
+            "Station de gonflage",
+            "Carburant additiv\u00e9",
+            "Lavage automatique",
+            "Lavage manuel"
+        ],
+        "departement": "Seine-Saint-Denis",
+        "code_departement": "93",
+        "region": "\u00cele-de-France",
+        "code_region": "11"
+    }
+]
