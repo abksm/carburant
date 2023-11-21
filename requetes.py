@@ -27,10 +27,14 @@ def save_as_csv(data, filename):
     with open(filename, 'w', newline='', encoding='utf-8') as csv_file:
         csv_writer = csv.writer(csv_file)
         
-        csv_writer.writerow(data[0].keys())
+        # les infos des stations se trouve dans la clé "results" du dictionnaire data
+
+        # on écrit la première ligne avec les noms des colonnes
+        csv_writer.writerow(data['results'][0])
         
-        for item in data:
+        for item in data['results']:
             csv_writer.writerow(item.values())
+
     print(f"Données enregistrées au format CSV dans le fichier : {filename}")
 
 if __name__ == "__main__":
