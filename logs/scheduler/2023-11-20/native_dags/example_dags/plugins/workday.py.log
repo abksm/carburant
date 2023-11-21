@@ -1,6 +1,0 @@
-[2023-11-20T20:42:44.489+0100] {processor.py:157} INFO - Started process (PID=11981) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
-[2023-11-20T20:42:44.496+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
-[2023-11-20T20:42:44.502+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:44.500+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
-[2023-11-20T20:42:44.521+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:44.520+0100] {workday.py:36} WARNING - Could not import pandas. Holidays will not be considered.
-[2023-11-20T20:42:44.526+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
-[2023-11-20T20:42:44.586+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.119 seconds

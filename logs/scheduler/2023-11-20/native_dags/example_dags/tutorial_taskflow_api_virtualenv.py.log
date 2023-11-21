@@ -1,6 +1,0 @@
-[2023-11-20T20:42:27.798+0100] {processor.py:157} INFO - Started process (PID=11904) to work on /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
-[2023-11-20T20:42:27.800+0100] {processor.py:829} INFO - Processing file /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py for tasks to queue
-[2023-11-20T20:42:27.803+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:27.802+0100] {dagbag.py:536} INFO - Filling up the DagBag from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
-[2023-11-20T20:42:27.810+0100] {logging_mixin.py:151} INFO - [2023-11-20T20:42:27.810+0100] {tutorial_taskflow_api_virtualenv.py:29} WARNING - The tutorial_taskflow_api_virtualenv example DAG requires virtualenv, please install it.
-[2023-11-20T20:42:27.811+0100] {processor.py:841} WARNING - No viable dags retrieved from /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py
-[2023-11-20T20:42:27.840+0100] {processor.py:179} INFO - Processing /home/yzpt/projects/carburant_gcp/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_taskflow_api_virtualenv.py took 0.051 seconds
