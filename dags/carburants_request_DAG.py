@@ -13,8 +13,7 @@ default_args = {
     'retry_delay': timedelta(seconds=30)
 }
 
-# with DAG('carburants_request', default_args=default_args, schedule_interval='*/10 * * * *', catchup=False) as dag:
-with DAG('carburants_request', default_args=default_args, schedule_interval='* * * * *', catchup=False) as dag:
+with DAG('carburants_request', default_args=default_args, schedule_interval='*/10 * * * *', catchup=False) as dag:
 
     craburant_request_task = PythonOperator(
         task_id='carburants_request',
