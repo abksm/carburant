@@ -47,7 +47,7 @@ DROP TABLE IF EXISTS raw_fields;
 EOF
 
 sudo -i -u yzpt psql carburants <<EOF
-CREATE TABLE IF NOT EXISTS raw_fields (
+CREATE TABLE IF NOT EXISTS records (
     record_timestamp TIMESTAMP,
     id BIGINT,
     latitude REAL,
@@ -83,14 +83,14 @@ EOF
 
 
 
-SELECT id, record_timestamp from raw_fields ORDER BY record_timestamp DESC LIMIT 5;
+SELECT id, record_timestamp from records ORDER BY record_timestamp DESC LIMIT 5;
 
 sudo -i -u yzpt psql carburants <<EOF > query_results.txt
 SELECT * FROM raw_fields ORDER BY record_timestamp DESC;
 EOF
 
 sudo -i -u yzpt psql carburants
-SELECT id, record_timestamp, ville, adresse, latitude, longitude FROM table_from_xml;
+SELECT id, record_timestamp, ville, adresse, latitude, longitude FROM records ORDER BY record_timestamp DESC LIMIT 5;
 
 
 # === DOCKER ===================================================================================================
