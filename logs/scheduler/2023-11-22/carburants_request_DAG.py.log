@@ -1,0 +1,105 @@
+[2023-11-22T21:03:25.729+0000] {processor.py:157} INFO - Started process (PID=38) to work on /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:03:25.747+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/carburants_request_DAG.py for tasks to queue
+[2023-11-22T21:03:25.783+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:03:25.770+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:03:26.056+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:03:26.037+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/carburants_request_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/carburants_request_DAG.py", line 5, in <module>
+    from carburants_request import extract_data
+  File "/opt/airflow/dags/carburants_request.py", line 6, in <module>
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-11-22T21:03:26.063+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:03:26.131+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/carburants_request_DAG.py took 0.445 seconds
+[2023-11-22T21:03:56.248+0000] {processor.py:157} INFO - Started process (PID=93) to work on /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:03:56.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/carburants_request_DAG.py for tasks to queue
+[2023-11-22T21:03:56.253+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:03:56.253+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:03:56.263+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:03:56.261+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/carburants_request_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/carburants_request_DAG.py", line 5, in <module>
+    from carburants_request import extract_data
+  File "/opt/airflow/dags/carburants_request.py", line 6, in <module>
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-11-22T21:03:56.264+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:03:56.325+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/carburants_request_DAG.py took 0.081 seconds
+[2023-11-22T21:04:26.736+0000] {processor.py:157} INFO - Started process (PID=148) to work on /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:04:26.738+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/carburants_request_DAG.py for tasks to queue
+[2023-11-22T21:04:26.742+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:04:26.741+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:04:26.751+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:04:26.749+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/carburants_request_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/carburants_request_DAG.py", line 5, in <module>
+    from carburants_request import extract_data
+  File "/opt/airflow/dags/carburants_request.py", line 6, in <module>
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-11-22T21:04:26.752+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:04:26.796+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/carburants_request_DAG.py took 0.064 seconds
+[2023-11-22T21:04:57.135+0000] {processor.py:157} INFO - Started process (PID=203) to work on /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:04:57.136+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/carburants_request_DAG.py for tasks to queue
+[2023-11-22T21:04:57.141+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:04:57.141+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:04:57.150+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:04:57.148+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/carburants_request_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/carburants_request_DAG.py", line 5, in <module>
+    from carburants_request import extract_data
+  File "/opt/airflow/dags/carburants_request.py", line 6, in <module>
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-11-22T21:04:57.151+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:04:57.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/carburants_request_DAG.py took 0.049 seconds
+[2023-11-22T21:05:27.391+0000] {processor.py:157} INFO - Started process (PID=258) to work on /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:05:27.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/carburants_request_DAG.py for tasks to queue
+[2023-11-22T21:05:27.397+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:05:27.397+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:05:27.407+0000] {logging_mixin.py:154} INFO - [2023-11-22T21:05:27.405+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/carburants_request_DAG.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/carburants_request_DAG.py", line 5, in <module>
+    from carburants_request import extract_data
+  File "/opt/airflow/dags/carburants_request.py", line 6, in <module>
+    conn = psycopg2.connect(
+  File "/home/airflow/.local/lib/python3.8/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (127.0.0.1), port 5432 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+connection to server at "localhost" (::1), port 5432 failed: Cannot assign requested address
+	Is the server running on that host and accepting TCP/IP connections?
+[2023-11-22T21:05:27.408+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/carburants_request_DAG.py
+[2023-11-22T21:05:27.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/carburants_request_DAG.py took 0.050 seconds

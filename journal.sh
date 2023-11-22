@@ -89,6 +89,10 @@ sudo -i -u yzpt psql carburants <<EOF > query_results.txt
 SELECT * FROM raw_fields ORDER BY record_timestamp DESC;
 EOF
 
+sudo -i -u yzpt psql carburants
+SELECT id, record_timestamp, ville, adresse, latitude, longitude FROM table_from_xml;
+
+
 # === DOCKER ===================================================================================================
 
 # === Airflow Docker ===========================================================================================
