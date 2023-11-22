@@ -13,7 +13,6 @@ conn = psycopg2.connect(
 
 def extract_data():
     # limit = 3
-    # url = f"https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?limit={limit}&timezone=Europe%2FParis"
     url = "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/prix-des-carburants-en-france-flux-instantane-v2/records?timezone=Europe%2FParis"
     response = requests.get(url)
     if response.status_code == 200:
@@ -77,5 +76,4 @@ def extract_data():
     
 
 if __name__ == "__main__":
-
     extract_data()

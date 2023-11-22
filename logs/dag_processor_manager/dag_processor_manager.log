@@ -1818,3 +1818,5 @@ File Path                                                         PID    Runtime
 ----------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
 /home/yzpt/projects/carburant_gcp/dags/carburants_request_DAG.py                           1           0  0.10s           2023-11-21T16:33:41
 ================================================================================
+[2023-11-21T21:29:37.862+0100] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-11-21T21:29:37.868+0100] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
